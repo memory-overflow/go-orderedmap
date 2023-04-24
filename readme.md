@@ -84,7 +84,7 @@ s := m.Size()
 log.Print(m.String())
 ```
 
-example 参考：[TestOrderMap](https://github.com/memory-overflow/go-common-library/blob/main/stl_extension/stl_test.go#L13)。
+example 参考：[TestOrderMap](https://github.com/memory-overflow/go-orderedmap/blob/main/stl_test.go#L13)。
 
 # LimitWaitGroup
 对原生 stl 的 WaitGroup 做补充，原生的 WaitGroup 没有办法限制协程的数量，比如如下处理，
