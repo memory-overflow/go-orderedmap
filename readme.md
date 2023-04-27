@@ -1,4 +1,7 @@
 主要是对go 语言 系统的 stl 的不足做补充。
+```
+go get github.com/memory-overflow/go-orderedmap
+```
 
 # OrderedMap
 golang stl 原生的 map 是基于 hash 的无序 map，OrderedMap 是对 hash map 的补充。支持按照 key 顺序遍历。
